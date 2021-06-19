@@ -1,0 +1,10 @@
+import numpy as np
+s = np.array([[12,41,3,13,312,77],[1,42,913,865,5,21]])
+print(s.sum())
+print(s.sum(axis=0))
+print(s.sum(axis=1))
+print(s.mean())
+print(s.mean(axis=0))
+print(s.mean(axis=1))
+print(s.min(axis=0))
+print(s.min())
